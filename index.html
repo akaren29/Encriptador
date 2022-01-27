@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Encrypt</h1>
+    <h1>Encriptador</h1>
     <div class="container">
-
         <div class="encriptar">
-            <p>Ingresa por favor el texto en minúsculas,sin acentos ni 
-                caracteres especiales.</p>
-            <input id="textoIngresado" type="text"> 
-            <button id="btnEncriptar">Encriptar</button>
-            <button>Desencriptar</button>
+            <p>Ingresa solo letras minusculas y sin acentos.</p>
+            <textarea id="textoIngresado" cols="60" rows="20" placeholder="Ingrese texto aquí"></textarea>
+            <div class="botonesE">
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+            </div>
+            
         </div>
         
         <div class="desencriptar">
-            <p>Mensaje Encriptado</p>
-            <input  id="msjEncriptado" type="text"> 
-            <button>copiar</button>
+            <p>Mensaje Encriptado:</p>
+            <textarea  id="msjEncriptado"  cols="30" rows="25" ></textarea>
+            <button id="btnCopiar">copiar</button>
         </div>
         
 

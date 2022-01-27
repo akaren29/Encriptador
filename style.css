@@ -54,6 +54,7 @@ button {
 
 footer {
   font-weight: 900;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -63,7 +64,7 @@ footer {
   }
   .desencriptar {
     background-color: white;
-
+    text-align: center;
     border-radius: 20px;
   }
   #msjEncriptado {
